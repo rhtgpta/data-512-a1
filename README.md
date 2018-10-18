@@ -1,7 +1,7 @@
-## Data 512 A1 (Data Curation)
+## Data 512: A1 - Data Curation
 
 Goal: The goal of the assignment is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2018.
-The intermediate datasets are saved as json and csv files, and the final graph displays the trends over time. 
+The intermediate datasets are saved as json and csv files, and the final graph displays the trend over time. 
 For the assignment, two different Wikimedia REST API endpoints are used (Legacy and Pageviews).
 
 ### Terms of Use and License of Source Data
@@ -37,5 +37,5 @@ Final csv data has the following fields:
 -pageview_mobile_views (total number of views from mobile clients, source: pageviews API)
 
 ### Considerations
-Overlap can be seen from July 2015 to July 2016, as both the APIs were in effect during the sepcified timeperiod. Data from the pageview API excludes crawlers/spiders, whereas the data from legacy API does not. Pageviews API provide data seperately for mobile web and mobile app, which is merged into one for the purpose of the analysis. 
+Overlap can be seen from July 2015 to July 2016, as both the APIs were in effect during the specified timeperiod. Pageview data excludes crawlers/spiders, whereas legacy does not. Pageviews API provide data seperately for mobile web and mobile app, which is merged into one for the purpose of the analysis. 
 
