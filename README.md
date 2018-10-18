@@ -37,5 +37,6 @@ Final csv data has the following fields:
 - pageview_mobile_views (total number of views from mobile clients, source: pageviews API)  
 
 ### Considerations
-Overlap can be seen from July 2015 to July 2016, as both the APIs were in effect during the specified timeperiod. Pageview data excludes crawlers/spiders, whereas legacy does not. Pageviews API provide data seperately for mobile web and mobile app, which is merged into one for the purpose of the analysis. 
+Overlap can be seen from July 2015 to July 2016, as both the APIs were in effect during the specified timeperiod. Pageview data excludes crawlers/spiders, whereas legacy does not. Pageviews API provide data seperately for mobile web and mobile app, which is merged into one for the purpose of the analysis.  
+The code was compiled on a Ubuntu machine running Python 3.4 on an Anaconda distribution. 
 
