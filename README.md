@@ -27,14 +27,14 @@ For the assignment, two different Wikimedia REST API endpoints are used (Legacy 
 
 Final csv data has the following fields: 
 
--year  
--month  
--pagecount_all_views (total number of views,  source: legacy pagecounts API)  
--pagecount_desktop_views (total number of views from desktop clients, source: legacy pagecounts API)  
--pagecount_mobile_views	(total number of views from mobile clients, source: legacy pagecounts API)  
--pageview_all_views (total number of views, source: pageviews API)  
--pageview_desktop_views (total number of views from desktop clients, source: pageviews API)  
--pageview_mobile_views (total number of views from mobile clients, source: pageviews API)  
+- year  
+- month  
+- pagecount_all_views (total number of views,  source: legacy pagecounts API)  
+- pagecount_desktop_views (total number of views from desktop clients, source: legacy pagecounts API)  
+- pagecount_mobile_views	(total number of views from mobile clients, source: legacy pagecounts API)  
+- pageview_all_views (total number of views, source: pageviews API)  
+- pageview_desktop_views (total number of views from desktop clients, source: pageviews API)  
+- pageview_mobile_views (total number of views from mobile clients, source: pageviews API)  
 
 ### Considerations
 Overlap can be seen from July 2015 to July 2016, as both the APIs were in effect during the specified timeperiod. Pageview data excludes crawlers/spiders, whereas legacy does not. Pageviews API provide data seperately for mobile web and mobile app, which is merged into one for the purpose of the analysis. 
